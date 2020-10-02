@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, date_published, content)
+VALUES
+    ('Article1', '2004-10-19 10:23:54+02', '1This is a content'),
+    ('Article2', '2004-10-20 10:05:54+02', '2This is a content'),
+    ('Article3', '2004-10-21 10:56:54+02', '3This is a content'),
+    ('Article4', '2004-10-22 10:43:54+02', '4This is a content'),
+    ('Article5', '2004-10-23 10:08:54+02', '5This is a content'),
+    ('Article6', '2004-10-24 10:05:54+02', '6This is a content'),
+    ('Article7', '2004-10-25 10:00:54+02', '7This is a content'),
+    ('Article8', '2004-10-26 10:55:54+02', '8This is a content'),
+    ('Article9', '2004-10-27 10:20:54+02', '9This is a content'),
+    ('Article10', '2004-10-28 10:21:54+02', '10This is a content'),
+    ('Article11', '2004-10-29 10:15:54+02', '11This is a content'),
+    ('Article12', '2004-10-30 10:10:54+02', '12This is a content'),
+    ('Article13', '2004-10-31 10:07:54+02', '13This is a content'),
+    ('Article14', '2004-10-32 10:30:54+02', '14This is a content'),
+    ('Article15', '2004-10-33 10:40:54+02', '15This is a content'),
+    ('Article16', '2004-10-34 10:35:54+02', '16This is a content'),
+    ('Article17', '2004-10-35 10:20:54+02', '17This is a content'),
+    ('Article18', '2004-10-36 10:10:54+02', '18This is a content'),
+    ('Article19', '2004-10-37 10:23:54+02', '19This is a content'),
+    ('Article20', '2004-10-38 10:45:54+02', '20This is a content');

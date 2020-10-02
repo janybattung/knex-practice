@@ -8,7 +8,20 @@ const knexInstance = knex({
 
 console.log('knex and driver installed correctly');
 
-// Get all items that contain text
+
+// function searchByArticles(searchBlog) {
+//     knexInstance
+//         .select('*')
+//         .from('blogful_articles')
+//         .then(result => {
+//         console.log('SEARCH Blog', { searchBlog })
+//         console.log(result)
+//         })
+// }
+
+// searchByArticles('Article1')
+
+Get all items that contain text
 function searchByItemName(searchTerm) {
     knexInstance
         .select('*')

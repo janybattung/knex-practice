@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
-    "start": "node src/practice.js",
+    "start": "node src/shopping-list-service.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
@@ -13,11 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.1.1",
     "knex": "^0.21.6",
+    "mocha": "^8.1.3",
     "morgan": "^1.10.0",
     "pg": "^8.3.3"
   }
